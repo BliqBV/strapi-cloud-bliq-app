@@ -4,7 +4,7 @@
   "info": {
     "singularName": "faq",
     "pluralName": "faqs",
-    "displayName": "FAQ",
+    "displayName": "FAQ Page",
     "description": ""
   },
   "options": {
@@ -16,15 +16,27 @@
     }
   },
   "attributes": {
-    "header_with_image": {
-      "type": "component",
-      "repeatable": false,
+    "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "pageTitle": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "shared.header-with-image"
+      "type": "string",
+      "required": true
     }
   }
 }
