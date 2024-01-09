@@ -1,17 +1,17 @@
 {
   "collectionName": "components_faq_faq_items",
   "info": {
-    "displayName": "Question & Answer",
-    "icon": "question",
+    "displayName": "OpenClose",
+    "icon": "dashboard",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "question": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "answer": {
+    "content": {
       "type": "richtext",
       "required": true
     }

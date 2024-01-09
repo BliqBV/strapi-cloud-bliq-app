@@ -51,7 +51,7 @@
       },
       "type": "string"
     },
-    "questionAndAnswer": {
+    "openClose": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -59,7 +59,7 @@
           "localized": true
         }
       },
-      "component": "faq.faq-item"
+      "component": "shared.faq-item"
     }
   }
 }

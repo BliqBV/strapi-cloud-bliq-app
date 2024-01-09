@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "over_ons",
+  "collectionName": "my_subscriptions",
   "info": {
-    "singularName": "over-on",
-    "pluralName": "over-ons",
-    "displayName": "Over ons",
+    "singularName": "my-subscription",
+    "pluralName": "my-subscriptions",
+    "displayName": "Mijn abonnement",
     "description": ""
   },
   "options": {
