@@ -1,8 +1,8 @@
 {
   "collectionName": "components_faq_faq_items",
   "info": {
-    "displayName": "OpenClose",
-    "icon": "dashboard",
+    "displayName": "Accordion",
+    "icon": "server",
     "description": ""
   },
   "options": {},

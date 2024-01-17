@@ -37,13 +37,25 @@
       },
       "type": "string"
     },
-    "pageContent": {
+    "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "richtext"
+    },
+    "dynamicZone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "shared.button",
+        "shared.content"
+      ]
     }
   }
 }

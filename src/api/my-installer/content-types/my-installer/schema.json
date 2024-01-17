@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "my_subscriptions",
+  "collectionName": "my_installers",
   "info": {
-    "singularName": "my-subscription",
-    "pluralName": "my-subscriptions",
-    "displayName": "Mijn Bliq: Mijn abonnement",
-    "description": ""
+    "singularName": "my-installer",
+    "pluralName": "my-installers",
+    "displayName": "Mijn Bliq: Mijn installateur"
   },
   "options": {
     "draftAndPublish": true
@@ -17,12 +16,11 @@
   },
   "attributes": {
     "headerImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
       ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -36,14 +34,6 @@
         }
       },
       "type": "string"
-    },
-    "content": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
     }
   }
 }
