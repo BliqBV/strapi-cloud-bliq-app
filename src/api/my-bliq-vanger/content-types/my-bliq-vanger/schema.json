@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "my_subscriptions",
+  "collectionName": "my_bliq_vangers",
   "info": {
-    "singularName": "my-subscription",
-    "pluralName": "my-subscriptions",
-    "displayName": "Mijn Bliq: Mijn abonnement",
+    "singularName": "my-bliq-vanger",
+    "pluralName": "my-bliq-vangers",
+    "displayName": "Mijn systeem: Mijn Bliq-vanger",
     "description": ""
   },
   "options": {
@@ -36,14 +36,6 @@
         }
       },
       "type": "string"
-    },
-    "content": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
     },
     "dynamicZone": {
       "pluginOptions": {

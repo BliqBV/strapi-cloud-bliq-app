@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "my_subscriptions",
+  "collectionName": "my_invoices_collection",
   "info": {
-    "singularName": "my-subscription",
-    "pluralName": "my-subscriptions",
-    "displayName": "Mijn Bliq: Mijn abonnement",
+    "singularName": "my-invoices",
+    "pluralName": "my-invoices-collection",
+    "displayName": "Mijn Bliq: Mijn facturen",
     "description": ""
   },
   "options": {
@@ -36,27 +36,6 @@
         }
       },
       "type": "string"
-    },
-    "content": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "dynamicZone": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "dynamiczone",
-      "components": [
-        "shared.accordion",
-        "shared.button",
-        "shared.content"
-      ]
     }
   }
 }

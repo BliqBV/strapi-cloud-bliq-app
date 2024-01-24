@@ -2,12 +2,14 @@
   "collectionName": "components_shared_contents",
   "info": {
     "displayName": "Content",
-    "icon": "strikeThrough"
+    "icon": "strikeThrough",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

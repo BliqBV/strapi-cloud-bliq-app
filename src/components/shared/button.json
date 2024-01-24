@@ -10,7 +10,8 @@
     "label": {
       "type": "string",
       "required": true,
-      "unique": false
+      "unique": false,
+      "default": "Label"
     },
     "variant": {
       "type": "enumeration",
