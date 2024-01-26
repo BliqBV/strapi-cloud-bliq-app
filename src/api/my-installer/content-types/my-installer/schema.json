@@ -4,7 +4,8 @@
   "info": {
     "singularName": "my-installer",
     "pluralName": "my-installers",
-    "displayName": "Mijn Bliq: Mijn installateur"
+    "displayName": "Mijn Bliq: Mijn installateur",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,11 +17,12 @@
   },
   "attributes": {
     "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -34,6 +36,19 @@
         }
       },
       "type": "string"
+    },
+    "dynamicZone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "shared.accordion",
+        "shared.button",
+        "shared.content"
+      ]
     }
   }
 }

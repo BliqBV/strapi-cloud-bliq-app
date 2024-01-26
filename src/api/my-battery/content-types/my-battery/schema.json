@@ -39,6 +39,19 @@
         }
       },
       "type": "string"
+    },
+    "dynamicZone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "shared.accordion",
+        "shared.button",
+        "shared.content"
+      ]
     }
   }
 }
