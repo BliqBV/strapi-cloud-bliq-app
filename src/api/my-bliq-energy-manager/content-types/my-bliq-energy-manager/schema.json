@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "my_bliq_energy_managers",
+  "info": {
+    "singularName": "my-bliq-energy-manager",
+    "pluralName": "my-bliq-energy-managers",
+    "displayName": "Mijn Bliq: Bliq energy manager​",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "pageTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "dynamicZone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "shared.accordion",
+        "shared.button",
+        "shared.content"
+      ]
+    }
+  }
+}
