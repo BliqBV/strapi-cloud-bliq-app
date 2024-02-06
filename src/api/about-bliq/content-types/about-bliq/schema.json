@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "over_ons",
+  "collectionName": "about_bliqs",
   "info": {
-    "singularName": "over-on",
-    "pluralName": "over-ons",
-    "displayName": "Meer: Over ons",
-    "description": ""
+    "singularName": "about-bliq",
+    "pluralName": "about-bliqs",
+    "displayName": "Meer: Over bliq"
   },
   "options": {
     "draftAndPublish": true
@@ -17,15 +16,14 @@
   },
   "attributes": {
     "headerImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
       ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       }
     },
@@ -47,6 +45,7 @@
       "components": [
         "shared.accordion",
         "shared.button",
+        "shared.contact",
         "shared.content"
       ]
     }

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * over-on controller
+ * about-bliq controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::over-on.over-on');
+module.exports = createCoreController('api::about-bliq.about-bliq');
