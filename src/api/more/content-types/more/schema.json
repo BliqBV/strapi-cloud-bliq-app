@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "more_plural",
+  "info": {
+    "singularName": "more",
+    "pluralName": "more-plural",
+    "displayName": "Meer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    }
+  }
+}
