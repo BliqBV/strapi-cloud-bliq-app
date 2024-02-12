@@ -47,7 +47,8 @@
       "components": [
         "shared.accordion",
         "shared.button",
-        "shared.content"
+        "shared.content",
+        "shared.contact"
       ]
     }
   }

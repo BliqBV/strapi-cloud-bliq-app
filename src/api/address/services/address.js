@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * faq-topic service
+ * address service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::faq-topic.faq-topic');
+module.exports = createCoreService('api::address.address');

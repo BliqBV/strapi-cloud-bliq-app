@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "my_invoices_collection",
+  "collectionName": "communication_collection",
   "info": {
-    "singularName": "my-invoices",
-    "pluralName": "my-invoices-collection",
-    "displayName": "Mijn Bliq: Mijn facturen",
-    "description": ""
+    "singularName": "communication",
+    "pluralName": "communication-collection",
+    "displayName": "Mijn profiel​: Communicatie"
   },
   "options": {
     "draftAndPublish": true
@@ -17,12 +16,11 @@
   },
   "attributes": {
     "headerImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
       ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -47,8 +45,8 @@
       "components": [
         "shared.accordion",
         "shared.button",
-        "shared.content",
-        "shared.contact"
+        "shared.contact",
+        "shared.content"
       ]
     }
   }

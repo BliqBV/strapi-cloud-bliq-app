@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "my_invoices_collection",
+  "collectionName": "addresses",
   "info": {
-    "singularName": "my-invoices",
-    "pluralName": "my-invoices-collection",
-    "displayName": "Mijn Bliq: Mijn facturen",
-    "description": ""
+    "singularName": "address",
+    "pluralName": "addresses",
+    "displayName": "Mijn profiel: Adres en woningtype"
   },
   "options": {
     "draftAndPublish": true
@@ -17,17 +16,17 @@
   },
   "attributes": {
     "headerImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
       ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "required": false
     },
     "pageTitle": {
       "pluginOptions": {
@@ -47,8 +46,8 @@
       "components": [
         "shared.accordion",
         "shared.button",
-        "shared.content",
-        "shared.contact"
+        "shared.contact",
+        "shared.content"
       ]
     }
   }

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "my_invoices_collection",
+  "collectionName": "change_email_addresses",
   "info": {
-    "singularName": "my-invoices",
-    "pluralName": "my-invoices-collection",
-    "displayName": "Mijn Bliq: Mijn facturen",
+    "singularName": "change-email-address",
+    "pluralName": "change-email-addresses",
+    "displayName": "Mijn profiel: Wijzig je e-mailadres​",
     "description": ""
   },
   "options": {
@@ -47,8 +47,8 @@
       "components": [
         "shared.accordion",
         "shared.button",
-        "shared.content",
-        "shared.contact"
+        "shared.contact",
+        "shared.content"
       ]
     }
   }

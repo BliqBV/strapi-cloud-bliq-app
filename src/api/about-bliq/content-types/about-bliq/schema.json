@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-bliq",
     "pluralName": "about-bliqs",
-    "displayName": "Meer: Over bliq"
+    "displayName": "Meer: Over bliq",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,14 +17,15 @@
   },
   "attributes": {
     "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },

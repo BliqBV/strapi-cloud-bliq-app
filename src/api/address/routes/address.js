@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * faq-topic router
+ * address router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::faq-topic.faq-topic');
+module.exports = createCoreRouter('api::address.address');

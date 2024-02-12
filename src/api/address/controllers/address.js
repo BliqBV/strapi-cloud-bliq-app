@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * faq-topic controller
+ * address controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::faq-topic.faq-topic');
+module.exports = createCoreController('api::address.address');
