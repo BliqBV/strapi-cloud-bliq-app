@@ -50,6 +50,28 @@
         "shared.contact",
         "shared.content"
       ]
+    },
+    "date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "datetime",
+      "required": true
+    },
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "news",
+        "error"
+      ],
+      "default": "news"
     }
   }
 }
