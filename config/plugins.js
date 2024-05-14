@@ -2,7 +2,7 @@ module.exports = ({env}) => ({
   slugify: {
     enabled: true,
     config: {
-      shouldUpdateSlug: true,
+      shouldUpdateSlug: false,
       contentTypes: {
         'popup': {
           field: 'slug',
