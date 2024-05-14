@@ -38,21 +38,19 @@
       "type": "string",
       "required": true
     },
-    "pageText": {
+    "dynamicZone": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "richtext"
-    },
-    "pageSubtitle": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+      "type": "dynamiczone",
+      "components": [
+        "shared.accordion",
+        "shared.button",
+        "shared.content",
+        "shared.contact"
+      ]
     }
   }
 }
