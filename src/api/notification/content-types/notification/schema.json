@@ -261,6 +261,9 @@
         "WrenchDT"
       ],
       "default": "EnvelopeDT"
+    },
+    "iColor": {
+      "type": "string"
     }
   }
 }
