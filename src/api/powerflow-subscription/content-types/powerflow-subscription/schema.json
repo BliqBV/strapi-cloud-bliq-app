@@ -51,6 +51,14 @@
         "solar_curtailment"
       ],
       "required": true
+    },
+    "sort": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
     }
   }
 }
