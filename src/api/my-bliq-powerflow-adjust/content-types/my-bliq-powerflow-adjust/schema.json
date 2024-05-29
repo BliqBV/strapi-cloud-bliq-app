@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "mijn_bliq_mijn_bliq_powerflow_2s",
+  "collectionName": "my_bliq_powerflow_adjusts",
   "info": {
-    "singularName": "mijn-bliq-mijn-bliq-powerflow-2",
-    "pluralName": "mijn-bliq-mijn-bliq-powerflow-2s",
-    "displayName": "Mijn Bliq: Mijn Bliq powerflow​ 2",
+    "singularName": "my-bliq-powerflow-adjust",
+    "pluralName": "my-bliq-powerflow-adjusts",
+    "displayName": "Mijn Bliq: Powerflow wijzigen",
     "description": ""
   },
   "options": {
