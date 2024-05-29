@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "my_bliq_powerflow_confirms",
+  "info": {
+    "singularName": "my-bliq-powerflow-confirm",
+    "pluralName": "my-bliq-powerflow-confirms",
+    "displayName": "Mijn Bliq: Powerflow wijziging bevestiging"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headerImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "pageTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "dynamicZone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "shared.accordion",
+        "shared.button",
+        "shared.contact",
+        "shared.content"
+      ]
+    }
+  }
+}

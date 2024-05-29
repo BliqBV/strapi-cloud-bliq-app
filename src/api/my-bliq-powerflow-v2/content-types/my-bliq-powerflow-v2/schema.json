@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "my_bliq_powerflow_v2s",
+  "info": {
+    "singularName": "my-bliq-powerflow-v2",
+    "pluralName": "my-bliq-powerflow-v2s",
+    "displayName": "Mijn Bliq: Huidige Bliq Powerflow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "pageTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "dynamicZone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "shared.accordion",
+        "shared.button",
+        "shared.contact",
+        "shared.content"
+      ]
+    }
+  }
+}
