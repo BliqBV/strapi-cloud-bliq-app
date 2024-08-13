@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "ev_additional_steps",
+  "collectionName": "ev_configuration_finishes",
   "info": {
-    "singularName": "ev-additional-step",
-    "pluralName": "ev-additional-steps",
-    "displayName": "EV: Additional Steps"
+    "singularName": "ev-configuration-finish",
+    "pluralName": "ev-configuration-finishes",
+    "displayName": "EV: Configuration Finish"
   },
   "options": {
     "draftAndPublish": true

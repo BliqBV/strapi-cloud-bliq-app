@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "ev_congratulations",
+  "collectionName": "ev_configuration_starts",
   "info": {
-    "singularName": "ev-congratulation",
-    "pluralName": "ev-congratulations",
-    "displayName": "EV: Congratulations"
+    "singularName": "ev-configuration-start",
+    "pluralName": "ev-configuration-starts",
+    "displayName": "EV: Configuration start"
   },
   "options": {
     "draftAndPublish": true
