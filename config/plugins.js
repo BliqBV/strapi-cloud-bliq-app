@@ -7,6 +7,10 @@ module.exports = ({env}) => ({
         'popup': {
           field: 'slug',
           references: 'title',
+        },
+        'qontrol-popup': {
+          field: 'slug',
+          references: 'title',
         }
       }
     }
