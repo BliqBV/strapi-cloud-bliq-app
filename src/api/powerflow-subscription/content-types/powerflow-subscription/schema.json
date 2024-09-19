@@ -48,7 +48,12 @@
         "smart_selfconsumption",
         "monitoring",
         "emergency_power",
-        "solar_curtailment"
+        "solar_curtailment",
+        "custom1",
+        "custom2",
+        "custom3",
+        "custom4",
+        "custom5"
       ],
       "required": true
     },
